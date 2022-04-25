@@ -1,0 +1,23 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+html { 
+      font-size: 62.5%;
+    }
+
+body { 
+  font-family: $body-font;
+    }
+
+.container{
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.grid--5-cols {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}

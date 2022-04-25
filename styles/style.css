@@ -8,4 +8,228 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.grid--5-cols {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
+.header {
+  text-align: center;
+  padding: 4rem;
+  background-image: url("../images/bg-header-desktop.png");
+  background-size: cover;
+  margin-bottom: 6rem;
+}
+
+.header__logo {
+  height: 4rem;
+}
+
+.header__title {
+  padding: 1.8rem 28rem;
+}
+
+.header__heading-primary {
+  font-size: 3.6rem;
+  padding-bottom: 1.4rem;
+}
+
+.header__text {
+  font-size: 2.2rem;
+  opacity: 0.4;
+  padding-bottom: 3rem;
+}
+
+.header__btn {
+  padding: 2rem 6rem;
+  border-radius: 3rem;
+  border: none;
+  color: white;
+}
+
+.header__btn-green {
+  background-color: #26baa4;
+  margin-right: 0.5rem;
+}
+
+.header__btn-blue {
+  background-color: #6173ff;
+  margin-left: 0.5rem;
+}
+
+.hero {
+  margin-bottom: 8rem;
+}
+
+.hero__heading {
+  text-align: center;
+  padding: 1.8rem 32rem;
+  margin-bottom: 3rem;
+}
+
+.hero__heading-secondary {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.hero__heading-text {
+  font-size: 2rem;
+  opacity: 0.4;
+}
+
+.hero__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6rem;
+}
+
+.hero__description_tags {
+  padding-top: 4rem;
+}
+
+.hero__description_tags .heading-tertiary {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero__description_tags .text {
+  font-size: 1.2rem;
+  padding-right: 36rem;
+  line-height: 2.4rem;
+  opacity: 0.4;
+  margin-bottom: 4rem;
+}
+
+.devices {
+  text-align: center;
+}
+
+.devices__heading-secondary {
+  font-size: 2.2rem;
+}
+
+.devices__heading-text {
+  font-size: 2rem;
+  opacity: 0.4;
+  padding: 1.8rem 32rem;
+  margin-bottom: 6rem;
+}
+
+.tech-logos {
+  padding: 14rem 0;
+}
+
+.tech-logos .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6rem;
+}
+
+.clipboard {
+  text-align: center;
+  padding-bottom: 14rem;
+}
+
+.clipboard__heading-primary {
+  font-size: 2.2rem;
+}
+
+.clipboard__text {
+  font-size: 2.2rem;
+  opacity: 0.4;
+  padding: 1.8rem 32rem;
+}
+
+.clipboard__buttons-container {
+  margin-top: 2rem;
+}
+
+.clipboard__btn {
+  padding: 2rem 6rem;
+  border-radius: 3rem;
+  border: none;
+  color: white;
+}
+
+.clipboard__btn-green {
+  background-color: #26baa4;
+  margin-right: 0.5rem;
+}
+
+.clipboard__btn-blue {
+  background-color: #6173ff;
+  margin-left: 0.5rem;
+}
+
+.footer {
+  background-color: #dfe8ec;
+  padding: 4rem 8rem;
+}
+
+.footer .logo-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.footer .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.8rem;
+}
+
+.footer .policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.8rem;
+}
+
+.footer .company-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer .company-logos .logo-icon {
+  height: 2rem;
+}
+
+.footer .text {
+  font-size: 1.2rem;
+  opacity: 0.4;
+}
 /*# sourceMappingURL=style.css.map */

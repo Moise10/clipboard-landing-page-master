@@ -1,0 +1,39 @@
+
+.footer {
+  background-color: $grayish-blue;
+  padding: 4rem 8rem;
+  .logo-img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .policy{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .guide {
+  }
+
+  .company-logos{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+
+    .logo-icon {
+      height: 2rem;
+    }
+  }
+
+  .text{
+    font-size: 1.2rem;
+    opacity: 0.4;
+  }
+}

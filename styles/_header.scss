@@ -1,0 +1,42 @@
+.header {
+  text-align: center;
+  padding: 4rem;
+  background-image: url('../images/bg-header-desktop.png');
+  background-size: cover;
+  margin-bottom: 6rem;
+  &__logo-container{
+
+  }
+  &__logo {
+    height: 4rem;
+  }
+
+  &__title {
+    padding: 1.8rem 28rem;
+  }
+  &__heading-primary {
+    font-size: 3.6rem;
+    padding-bottom: 1.4rem;
+  }
+  &__text {
+    font-size: 2.2rem;
+    opacity: 0.4;
+    padding-bottom: 3rem;
+  }
+  &__btn{
+    padding: 2rem 6rem;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+  }
+  &__btn-green{
+    background-color: $strong-cyan;
+    margin-right: 0.5rem;
+  }
+  &__btn-blue {
+    background-color: $light-blue;
+    margin-left: 0.5rem;
+
+  }
+
+}

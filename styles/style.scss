@@ -1,9 +1,10 @@
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html { 
-      font-size: 62.5%;
-    }
+@import './variables';
+@import './main';
+@import './mixins';
+@import './header';
+@import './hero';
+@import './devices';
+@import './workflow';
+@import './tech-logos';
+@import './clipboard';
+@import './footer';
